@@ -36,8 +36,6 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
     SignInButton button;  // google standart naming in play-services-auth
     FirebaseAuth mAuth;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
