@@ -33,8 +33,6 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
     private  static  final String TAG="SingInActivity";
     private  static  final int RC_SIGN_IN =9001;
 
-    //https://www.youtube.com/watch?v=SXlidHy-Tb8&t=179s
-    //https://www.youtube.com/watch?v=Duz_0XkWP2I&t=574s
     SignInButton button;  // google standart naming in play-services-auth
     FirebaseAuth mAuth;
 
